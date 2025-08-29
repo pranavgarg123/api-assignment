@@ -1,7 +1,11 @@
+import asyncio
+import os
 from logging.config import fileConfig
 
 from sqlalchemy import engine_from_config
 from sqlalchemy import pool
+from sqlalchemy.engine import Connection
+from sqlalchemy.ext.asyncio import async_engine_from_config
 
 from alembic import context
 
@@ -16,9 +20,9 @@ if config.config_file_name is not None:
 
 # add your model's MetaData object here
 # for 'autogenerate' support
-# from myapp import mymodel
-# target_metadata = mymodel.Base.metadata
-target_metadata = None
+# Import your models to ensure Alembic can see them
+from models import Base
+target_metadata = Base.metadata
 
 # other values from the config, defined by the needs of env.py,
 # can be acquired:
@@ -38,9 +42,15 @@ def run_migrations_offline() -> None:
     script output.
 
     """
-    url = config.get_main_option("sqlalchemy.url")
+    # Get database URL from environment variable or config
+    database_url = os.getenv("DATABASE_URL", config.get_main_option("sqlalchemy.url"))
+    
+    # Convert async URL to sync URL for Alembic (which runs synchronously)
+    if database_url.startswith("postgresql+asyncpg://"):
+        database_url = database_url.replace("postgresql+asyncpg://", "postgresql://")
+    
     context.configure(
-        url=url,
+        url=database_url,
         target_metadata=target_metadata,
         literal_binds=True,
         dialect_opts={"paramstyle": "named"},
@@ -57,8 +67,20 @@ def run_migrations_online() -> None:
     and associate a connection with the context.
 
     """
+    # Get database URL from environment variable or config
+    database_url = os.getenv("DATABASE_URL", config.get_main_option("sqlalchemy.url"))
+    
+    # Convert async URL to sync URL for Alembic (which runs synchronously)
+    if database_url.startswith("postgresql+asyncpg://"):
+        database_url = database_url.replace("postgresql+asyncpg://", "postgresql://")
+    
+    # For async SQLAlchemy, we need to handle both sync and async scenarios
+    # Alembic runs in sync mode, so we'll use the sync engine
+    configuration = config.get_section(config.config_ini_section, {})
+    configuration["sqlalchemy.url"] = database_url
+    
     connectable = engine_from_config(
-        config.get_section(config.config_ini_section, {}),
+        configuration,
         prefix="sqlalchemy.",
         poolclass=pool.NullPool,
     )

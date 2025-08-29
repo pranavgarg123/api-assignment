@@ -2,14 +2,16 @@ version: "3.9"
 services:
   db:
     image: postgres:15
+    container_name: healthcare-db
     restart: always
     environment:
-      POSTGRES_USER: user
-      POSTGRES_PASSWORD: password
+      POSTGRES_USER: pranavgarg123
+      POSTGRES_PASSWORD: ThisIsMyPassword123!
       POSTGRES_DB: healthcare
-  ports:
+    ports:
       - "5432:5432"
-  volumes:
-      -pgdata:/var/lib/postgresql/data
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
 volumes:
   pgdata:
