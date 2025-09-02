@@ -9,7 +9,11 @@ For Alembic migrations, you can use either:
 - postgresql+asyncpg:// (async) - for your FastAPI app
 """
 
+from dotenv import load_dotenv
 import os
+
+# Load .env variables
+load_dotenv()
 
 # Database URL for async SQLAlchemy (FastAPI app)
 ASYNC_DATABASE_URL = os.getenv(
@@ -30,9 +34,12 @@ POSTGRES_DB = os.getenv("POSTGRES_DB", "healthcare")
 POSTGRES_HOST = os.getenv("POSTGRES_HOST", "localhost")
 POSTGRES_PORT = os.getenv("POSTGRES_PORT", "5432")
 
-# Connection string builder
 def get_database_url(async_driver=True):
-    """Get database URL with optional async driver"""
+    """Get database URL"""
+    db_url = os.getenv("DATABASE_URL")
+    if db_url:
+        return db_url
+    # fallback if DATABASE_URL not set
     if async_driver:
         return f"postgresql+asyncpg://{POSTGRES_USER}:{POSTGRES_PASSWORD}@{POSTGRES_HOST}:{POSTGRES_PORT}/{POSTGRES_DB}"
     else:

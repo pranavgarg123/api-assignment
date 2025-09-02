@@ -1,0 +1,310 @@
+2025-09-02 14:18:40,264 - INFO - Starting ETL process...
+2025-09-02 14:18:40,477 - INFO - Database connection established successfully
+2025-09-02 14:18:40,477 - INFO - Reading CSV file: data/sample_prices_ny.csv
+2025-09-02 14:18:40,488 - INFO - Successfully tested CSV with encoding: latin-1
+2025-09-02 14:18:40,495 - INFO - Processing batch 1 (1000 records)
+2025-09-02 14:18:40,510 - INFO - Batch 1: No NY providers found, skipping
+2025-09-02 14:18:40,520 - INFO - Processing batch 2 (1000 records)
+2025-09-02 14:18:40,534 - INFO - Batch 2: No NY providers found, skipping
+2025-09-02 14:18:40,549 - INFO - Processing batch 3 (1000 records)
+2025-09-02 14:18:40,568 - INFO - Batch 3: No NY providers found, skipping
+2025-09-02 14:18:40,583 - INFO - Processing batch 4 (1000 records)
+2025-09-02 14:18:40,602 - INFO - Batch 4: No NY providers found, skipping
+2025-09-02 14:18:40,617 - INFO - Processing batch 5 (1000 records)
+2025-09-02 14:18:40,665 - INFO - Batch 5: No NY providers found, skipping
+2025-09-02 14:18:40,678 - INFO - Processing batch 6 (1000 records)
+2025-09-02 14:18:40,692 - INFO - Batch 6: No NY providers found, skipping
+2025-09-02 14:18:40,702 - INFO - Processing batch 7 (1000 records)
+2025-09-02 14:18:40,716 - INFO - Batch 7: No NY providers found, skipping
+2025-09-02 14:18:40,730 - INFO - Processing batch 8 (1000 records)
+2025-09-02 14:18:40,744 - INFO - Batch 8: No NY providers found, skipping
+2025-09-02 14:18:40,755 - INFO - Processing batch 9 (1000 records)
+2025-09-02 14:18:40,769 - INFO - Batch 9: No NY providers found, skipping
+2025-09-02 14:18:40,782 - INFO - Processing batch 10 (1000 records)
+2025-09-02 14:18:40,796 - INFO - Batch 10: No NY providers found, skipping
+2025-09-02 14:18:40,810 - INFO - Processing batch 11 (1000 records)
+2025-09-02 14:18:40,825 - INFO - Batch 11: No NY providers found, skipping
+2025-09-02 14:18:40,837 - INFO - Processing batch 12 (1000 records)
+2025-09-02 14:18:40,852 - INFO - Batch 12: No NY providers found, skipping
+2025-09-02 14:18:40,868 - INFO - Processing batch 13 (1000 records)
+2025-09-02 14:18:40,881 - INFO - Batch 13: No NY providers found, skipping
+2025-09-02 14:18:40,895 - INFO - Processing batch 14 (1000 records)
+2025-09-02 14:18:40,909 - INFO - Batch 14: No NY providers found, skipping
+2025-09-02 14:18:40,920 - INFO - Processing batch 15 (1000 records)
+2025-09-02 14:18:40,938 - INFO - Batch 15: No NY providers found, skipping
+2025-09-02 14:18:40,950 - INFO - Processing batch 16 (1000 records)
+2025-09-02 14:18:40,963 - INFO - Batch 16: No NY providers found, skipping
+2025-09-02 14:18:40,977 - INFO - Processing batch 17 (1000 records)
+2025-09-02 14:18:40,991 - INFO - Batch 17: No NY providers found, skipping
+2025-09-02 14:18:41,002 - INFO - Processing batch 18 (1000 records)
+2025-09-02 14:18:41,014 - INFO - Batch 18: No NY providers found, skipping
+2025-09-02 14:18:41,027 - INFO - Processing batch 19 (1000 records)
+2025-09-02 14:18:41,041 - INFO - Batch 19: No NY providers found, skipping
+2025-09-02 14:18:41,051 - INFO - Processing batch 20 (1000 records)
+2025-09-02 14:18:41,065 - INFO - Batch 20: No NY providers found, skipping
+2025-09-02 14:18:41,077 - INFO - Processing batch 21 (1000 records)
+2025-09-02 14:18:41,092 - INFO - Batch 21: No NY providers found, skipping
+2025-09-02 14:18:41,110 - INFO - Processing batch 22 (1000 records)
+2025-09-02 14:18:41,122 - INFO - Batch 22: No NY providers found, skipping
+2025-09-02 14:18:41,134 - INFO - Processing batch 23 (1000 records)
+2025-09-02 14:18:41,145 - INFO - Batch 23: No NY providers found, skipping
+2025-09-02 14:18:41,159 - INFO - Processing batch 24 (1000 records)
+2025-09-02 14:18:41,172 - INFO - Batch 24: No NY providers found, skipping
+2025-09-02 14:18:41,184 - INFO - Processing batch 25 (1000 records)
+2025-09-02 14:18:41,196 - INFO - Batch 25: No NY providers found, skipping
+2025-09-02 14:18:41,210 - INFO - Processing batch 26 (1000 records)
+2025-09-02 14:18:41,224 - INFO - Batch 26: No NY providers found, skipping
+2025-09-02 14:18:41,238 - INFO - Processing batch 27 (1000 records)
+2025-09-02 14:18:41,252 - INFO - Batch 27: No NY providers found, skipping
+2025-09-02 14:18:41,265 - INFO - Processing batch 28 (1000 records)
+2025-09-02 14:18:41,277 - INFO - Batch 28: No NY providers found, skipping
+2025-09-02 14:18:41,290 - INFO - Processing batch 29 (1000 records)
+2025-09-02 14:18:41,305 - INFO - Batch 29: No NY providers found, skipping
+2025-09-02 14:18:41,316 - INFO - Processing batch 30 (1000 records)
+2025-09-02 14:18:41,328 - INFO - Batch 30: No NY providers found, skipping
+2025-09-02 14:18:41,343 - INFO - Processing batch 31 (1000 records)
+2025-09-02 14:18:41,356 - INFO - Batch 31: No NY providers found, skipping
+2025-09-02 14:18:41,366 - INFO - Processing batch 32 (1000 records)
+2025-09-02 14:18:41,378 - INFO - Batch 32: No NY providers found, skipping
+2025-09-02 14:18:41,394 - INFO - Processing batch 33 (1000 records)
+2025-09-02 14:18:41,407 - INFO - Batch 33: No NY providers found, skipping
+2025-09-02 14:18:41,419 - INFO - Processing batch 34 (1000 records)
+2025-09-02 14:18:41,432 - INFO - Batch 34: No NY providers found, skipping
+2025-09-02 14:18:41,443 - INFO - Processing batch 35 (1000 records)
+2025-09-02 14:18:41,456 - INFO - Batch 35: No NY providers found, skipping
+2025-09-02 14:18:41,471 - INFO - Processing batch 36 (1000 records)
+2025-09-02 14:18:41,485 - INFO - Batch 36: No NY providers found, skipping
+2025-09-02 14:18:41,496 - INFO - Processing batch 37 (1000 records)
+2025-09-02 14:18:41,514 - INFO - Batch 37: No NY providers found, skipping
+2025-09-02 14:18:41,535 - INFO - Processing batch 38 (1000 records)
+2025-09-02 14:18:41,556 - INFO - Batch 38: No NY providers found, skipping
+2025-09-02 14:18:41,575 - INFO - Processing batch 39 (1000 records)
+2025-09-02 14:18:41,600 - INFO - Batch 39: No NY providers found, skipping
+2025-09-02 14:18:41,621 - INFO - Processing batch 40 (1000 records)
+2025-09-02 14:18:41,636 - INFO - Batch 40: No NY providers found, skipping
+2025-09-02 14:18:41,645 - INFO - Processing batch 41 (1000 records)
+2025-09-02 14:18:41,659 - INFO - Batch 41: No NY providers found, skipping
+2025-09-02 14:18:41,675 - INFO - Processing batch 42 (1000 records)
+2025-09-02 14:18:41,694 - INFO - Batch 42: No NY providers found, skipping
+2025-09-02 14:18:41,709 - INFO - Processing batch 43 (1000 records)
+2025-09-02 14:18:41,725 - INFO - Batch 43: No NY providers found, skipping
+2025-09-02 14:18:41,740 - INFO - Processing batch 44 (1000 records)
+2025-09-02 14:18:41,758 - INFO - Batch 44: No NY providers found, skipping
+2025-09-02 14:18:41,774 - INFO - Processing batch 45 (1000 records)
+2025-09-02 14:18:41,791 - INFO - Batch 45: No NY providers found, skipping
+2025-09-02 14:18:41,805 - INFO - Processing batch 46 (1000 records)
+2025-09-02 14:18:41,821 - INFO - Batch 46: No NY providers found, skipping
+2025-09-02 14:18:41,833 - INFO - Processing batch 47 (1000 records)
+2025-09-02 14:18:41,854 - INFO - Batch 47: No NY providers found, skipping
+2025-09-02 14:18:41,869 - INFO - Processing batch 48 (1000 records)
+2025-09-02 14:18:41,884 - INFO - Batch 48: No NY providers found, skipping
+2025-09-02 14:18:41,900 - INFO - Processing batch 49 (1000 records)
+2025-09-02 14:18:41,918 - INFO - Batch 49: No NY providers found, skipping
+2025-09-02 14:18:41,933 - INFO - Processing batch 50 (1000 records)
+2025-09-02 14:18:41,950 - INFO - Batch 50: No NY providers found, skipping
+2025-09-02 14:18:41,963 - INFO - Processing batch 51 (1000 records)
+2025-09-02 14:18:41,994 - INFO - Batch 51: No NY providers found, skipping
+2025-09-02 14:18:42,064 - INFO - Processing batch 52 (1000 records)
+2025-09-02 14:18:42,127 - INFO - Batch 52: No NY providers found, skipping
+2025-09-02 14:18:42,152 - INFO - Processing batch 53 (1000 records)
+2025-09-02 14:18:42,164 - INFO - Batch 53: No NY providers found, skipping
+2025-09-02 14:18:42,201 - INFO - Processing batch 54 (1000 records)
+2025-09-02 14:18:42,220 - INFO - Batch 54: No NY providers found, skipping
+2025-09-02 14:18:42,230 - INFO - Processing batch 55 (1000 records)
+2025-09-02 14:18:42,244 - INFO - Batch 55: No NY providers found, skipping
+2025-09-02 14:18:42,258 - INFO - Processing batch 56 (1000 records)
+2025-09-02 14:18:42,272 - INFO - Batch 56: No NY providers found, skipping
+2025-09-02 14:18:42,288 - INFO - Processing batch 57 (1000 records)
+2025-09-02 14:18:42,299 - INFO - Batch 57: No NY providers found, skipping
+2025-09-02 14:18:42,313 - INFO - Processing batch 58 (1000 records)
+2025-09-02 14:18:42,326 - INFO - Batch 58: No NY providers found, skipping
+2025-09-02 14:18:42,340 - INFO - Processing batch 59 (1000 records)
+2025-09-02 14:18:42,353 - INFO - Batch 59: No NY providers found, skipping
+2025-09-02 14:18:42,364 - INFO - Processing batch 60 (1000 records)
+2025-09-02 14:18:42,377 - INFO - Batch 60: No NY providers found, skipping
+2025-09-02 14:18:42,390 - INFO - Processing batch 61 (1000 records)
+2025-09-02 14:18:42,403 - INFO - Batch 61: No NY providers found, skipping
+2025-09-02 14:18:42,415 - INFO - Processing batch 62 (1000 records)
+2025-09-02 14:18:42,427 - INFO - Batch 62: No NY providers found, skipping
+2025-09-02 14:18:42,440 - INFO - Processing batch 63 (1000 records)
+2025-09-02 14:18:42,453 - INFO - Batch 63: No NY providers found, skipping
+2025-09-02 14:18:42,464 - INFO - Processing batch 64 (1000 records)
+2025-09-02 14:18:42,480 - INFO - Batch 64: No NY providers found, skipping
+2025-09-02 14:18:42,495 - INFO - Processing batch 65 (1000 records)
+2025-09-02 14:18:42,510 - INFO - Batch 65: No NY providers found, skipping
+2025-09-02 14:18:42,524 - INFO - Processing batch 66 (1000 records)
+2025-09-02 14:18:42,539 - INFO - Batch 66: No NY providers found, skipping
+2025-09-02 14:18:42,552 - INFO - Processing batch 67 (1000 records)
+2025-09-02 14:18:42,567 - INFO - Batch 67: No NY providers found, skipping
+2025-09-02 14:18:42,580 - INFO - Processing batch 68 (1000 records)
+2025-09-02 14:18:42,593 - INFO - Batch 68: No NY providers found, skipping
+2025-09-02 14:18:42,608 - INFO - Processing batch 69 (1000 records)
+2025-09-02 14:18:42,621 - INFO - Batch 69: No NY providers found, skipping
+2025-09-02 14:18:42,633 - INFO - Processing batch 70 (1000 records)
+2025-09-02 14:18:42,645 - INFO - Batch 70: No NY providers found, skipping
+2025-09-02 14:18:42,659 - INFO - Processing batch 71 (1000 records)
+2025-09-02 14:18:42,671 - INFO - Batch 71: No NY providers found, skipping
+2025-09-02 14:18:42,683 - INFO - Processing batch 72 (1000 records)
+2025-09-02 14:18:42,697 - INFO - Batch 72: No NY providers found, skipping
+2025-09-02 14:18:42,711 - INFO - Processing batch 73 (1000 records)
+2025-09-02 14:18:42,723 - INFO - Batch 73: No NY providers found, skipping
+2025-09-02 14:18:42,738 - INFO - Processing batch 74 (1000 records)
+2025-09-02 14:18:42,751 - INFO - Batch 74: No NY providers found, skipping
+2025-09-02 14:18:42,766 - INFO - Processing batch 75 (1000 records)
+2025-09-02 14:18:42,782 - INFO - Batch 75: No NY providers found, skipping
+2025-09-02 14:18:42,795 - INFO - Processing batch 76 (1000 records)
+2025-09-02 14:18:42,811 - INFO - Batch 76: No NY providers found, skipping
+2025-09-02 14:18:42,826 - INFO - Processing batch 77 (1000 records)
+2025-09-02 14:18:42,839 - INFO - Batch 77: No NY providers found, skipping
+2025-09-02 14:18:42,853 - INFO - Processing batch 78 (1000 records)
+2025-09-02 14:18:42,865 - INFO - Batch 78: No NY providers found, skipping
+2025-09-02 14:18:42,880 - INFO - Processing batch 79 (1000 records)
+2025-09-02 14:18:42,892 - INFO - Batch 79: No NY providers found, skipping
+2025-09-02 14:18:42,908 - INFO - Processing batch 80 (1000 records)
+2025-09-02 14:18:42,924 - INFO - Batch 80: No NY providers found, skipping
+2025-09-02 14:18:42,941 - INFO - Processing batch 81 (1000 records)
+2025-09-02 14:18:42,959 - INFO - Batch 81: No NY providers found, skipping
+2025-09-02 14:18:42,975 - INFO - Processing batch 82 (1000 records)
+2025-09-02 14:18:42,993 - INFO - Batch 82: No NY providers found, skipping
+2025-09-02 14:18:43,009 - INFO - Processing batch 83 (1000 records)
+2025-09-02 14:18:43,022 - INFO - Batch 83: No NY providers found, skipping
+2025-09-02 14:18:43,034 - INFO - Processing batch 84 (1000 records)
+2025-09-02 14:18:43,048 - INFO - Batch 84: No NY providers found, skipping
+2025-09-02 14:18:43,062 - INFO - Processing batch 85 (1000 records)
+2025-09-02 14:18:43,075 - INFO - Batch 85: No NY providers found, skipping
+2025-09-02 14:18:43,090 - INFO - Processing batch 86 (1000 records)
+2025-09-02 14:18:43,103 - INFO - Batch 86: No NY providers found, skipping
+2025-09-02 14:18:43,113 - INFO - Processing batch 87 (1000 records)
+2025-09-02 14:18:43,127 - INFO - Batch 87: No NY providers found, skipping
+2025-09-02 14:18:43,141 - INFO - Processing batch 88 (1000 records)
+2025-09-02 14:18:43,157 - INFO - Batch 88: Filtered to 354 NY providers from 1000 total records
+2025-09-02 14:18:45,402 - INFO - Batch 88 completed: 354 processed, 0 errors
+2025-09-02 14:18:45,412 - INFO - Processing batch 89 (1000 records)
+2025-09-02 14:18:45,426 - INFO - Batch 89: Filtered to 1000 NY providers from 1000 total records
+2025-09-02 14:18:51,757 - INFO - Batch 89 completed: 1000 processed, 0 errors
+2025-09-02 14:18:51,767 - INFO - Processing batch 90 (1000 records)
+2025-09-02 14:18:51,780 - INFO - Batch 90: Filtered to 1000 NY providers from 1000 total records
+2025-09-02 14:18:57,797 - INFO - Batch 90 completed: 1000 processed, 0 errors
+2025-09-02 14:18:57,808 - INFO - Processing batch 91 (1000 records)
+2025-09-02 14:18:57,820 - INFO - Batch 91: Filtered to 1000 NY providers from 1000 total records
+2025-09-02 14:19:03,563 - INFO - Batch 91 completed: 1000 processed, 0 errors
+2025-09-02 14:19:03,572 - INFO - Processing batch 92 (1000 records)
+2025-09-02 14:19:03,591 - INFO - Batch 92: Filtered to 1000 NY providers from 1000 total records
+2025-09-02 14:19:09,201 - INFO - Batch 92 completed: 1000 processed, 0 errors
+2025-09-02 14:19:09,212 - INFO - Processing batch 93 (1000 records)
+2025-09-02 14:19:09,236 - INFO - Batch 93: Filtered to 1000 NY providers from 1000 total records
+2025-09-02 14:19:14,934 - INFO - Batch 93 completed: 1000 processed, 0 errors
+2025-09-02 14:19:14,943 - INFO - Processing batch 94 (1000 records)
+2025-09-02 14:19:14,956 - INFO - Batch 94: Filtered to 1000 NY providers from 1000 total records
+2025-09-02 14:19:20,889 - INFO - Batch 94 completed: 1000 processed, 0 errors
+2025-09-02 14:19:20,899 - INFO - Processing batch 95 (1000 records)
+2025-09-02 14:19:20,912 - INFO - Batch 95: Filtered to 1000 NY providers from 1000 total records
+2025-09-02 14:19:27,084 - INFO - Batch 95 completed: 1000 processed, 0 errors
+2025-09-02 14:19:27,096 - INFO - Processing batch 96 (1000 records)
+2025-09-02 14:19:27,116 - INFO - Batch 96: Filtered to 1000 NY providers from 1000 total records
+2025-09-02 14:19:33,258 - INFO - Batch 96 completed: 1000 processed, 0 errors
+2025-09-02 14:19:33,273 - INFO - Processing batch 97 (1000 records)
+2025-09-02 14:19:33,292 - INFO - Batch 97: Filtered to 145 NY providers from 1000 total records
+2025-09-02 14:19:34,235 - INFO - Batch 97 completed: 145 processed, 0 errors
+2025-09-02 14:19:34,244 - INFO - Processing batch 98 (1000 records)
+2025-09-02 14:19:34,260 - INFO - Batch 98: No NY providers found, skipping
+2025-09-02 14:19:34,273 - INFO - Processing batch 99 (1000 records)
+2025-09-02 14:19:34,291 - INFO - Batch 99: No NY providers found, skipping
+2025-09-02 14:19:34,302 - INFO - Processing batch 100 (1000 records)
+2025-09-02 14:19:34,315 - INFO - Batch 100: No NY providers found, skipping
+2025-09-02 14:19:34,329 - INFO - Processing batch 101 (1000 records)
+2025-09-02 14:19:34,343 - INFO - Batch 101: No NY providers found, skipping
+2025-09-02 14:19:34,353 - INFO - Processing batch 102 (1000 records)
+2025-09-02 14:19:34,366 - INFO - Batch 102: No NY providers found, skipping
+2025-09-02 14:19:34,377 - INFO - Processing batch 103 (1000 records)
+2025-09-02 14:19:34,391 - INFO - Batch 103: No NY providers found, skipping
+2025-09-02 14:19:34,399 - INFO - Processing batch 104 (1000 records)
+2025-09-02 14:19:34,414 - INFO - Batch 104: No NY providers found, skipping
+2025-09-02 14:19:34,426 - INFO - Processing batch 105 (1000 records)
+2025-09-02 14:19:34,438 - INFO - Batch 105: No NY providers found, skipping
+2025-09-02 14:19:34,449 - INFO - Processing batch 106 (1000 records)
+2025-09-02 14:19:34,463 - INFO - Batch 106: No NY providers found, skipping
+2025-09-02 14:19:34,476 - INFO - Processing batch 107 (1000 records)
+2025-09-02 14:19:34,488 - INFO - Batch 107: No NY providers found, skipping
+2025-09-02 14:19:34,499 - INFO - Processing batch 108 (1000 records)
+2025-09-02 14:19:34,513 - INFO - Batch 108: No NY providers found, skipping
+2025-09-02 14:19:34,527 - INFO - Processing batch 109 (1000 records)
+2025-09-02 14:19:34,540 - INFO - Batch 109: No NY providers found, skipping
+2025-09-02 14:19:34,553 - INFO - Processing batch 110 (1000 records)
+2025-09-02 14:19:34,567 - INFO - Batch 110: No NY providers found, skipping
+2025-09-02 14:19:34,584 - INFO - Processing batch 111 (1000 records)
+2025-09-02 14:19:34,600 - INFO - Batch 111: No NY providers found, skipping
+2025-09-02 14:19:34,613 - INFO - Processing batch 112 (1000 records)
+2025-09-02 14:19:34,628 - INFO - Batch 112: No NY providers found, skipping
+2025-09-02 14:19:34,642 - INFO - Processing batch 113 (1000 records)
+2025-09-02 14:19:34,657 - INFO - Batch 113: No NY providers found, skipping
+2025-09-02 14:19:34,669 - INFO - Processing batch 114 (1000 records)
+2025-09-02 14:19:34,691 - INFO - Batch 114: No NY providers found, skipping
+2025-09-02 14:19:34,703 - INFO - Processing batch 115 (1000 records)
+2025-09-02 14:19:34,716 - INFO - Batch 115: No NY providers found, skipping
+2025-09-02 14:19:34,730 - INFO - Processing batch 116 (1000 records)
+2025-09-02 14:19:34,746 - INFO - Batch 116: No NY providers found, skipping
+2025-09-02 14:19:34,762 - INFO - Processing batch 117 (1000 records)
+2025-09-02 14:19:34,779 - INFO - Batch 117: No NY providers found, skipping
+2025-09-02 14:19:34,791 - INFO - Processing batch 118 (1000 records)
+2025-09-02 14:19:34,807 - INFO - Batch 118: No NY providers found, skipping
+2025-09-02 14:19:34,818 - INFO - Processing batch 119 (1000 records)
+2025-09-02 14:19:34,832 - INFO - Batch 119: No NY providers found, skipping
+2025-09-02 14:19:34,847 - INFO - Processing batch 120 (1000 records)
+2025-09-02 14:19:34,861 - INFO - Batch 120: No NY providers found, skipping
+2025-09-02 14:19:34,874 - INFO - Processing batch 121 (1000 records)
+2025-09-02 14:19:34,885 - INFO - Batch 121: No NY providers found, skipping
+2025-09-02 14:19:34,898 - INFO - Processing batch 122 (1000 records)
+2025-09-02 14:19:34,911 - INFO - Batch 122: No NY providers found, skipping
+2025-09-02 14:19:34,924 - INFO - Processing batch 123 (1000 records)
+2025-09-02 14:19:34,939 - INFO - Batch 123: No NY providers found, skipping
+2025-09-02 14:19:34,948 - INFO - Processing batch 124 (1000 records)
+2025-09-02 14:19:34,963 - INFO - Batch 124: No NY providers found, skipping
+2025-09-02 14:19:34,977 - INFO - Processing batch 125 (1000 records)
+2025-09-02 14:19:34,993 - INFO - Batch 125: No NY providers found, skipping
+2025-09-02 14:19:35,005 - INFO - Processing batch 126 (1000 records)
+2025-09-02 14:19:35,019 - INFO - Batch 126: No NY providers found, skipping
+2025-09-02 14:19:35,030 - INFO - Processing batch 127 (1000 records)
+2025-09-02 14:19:35,044 - INFO - Batch 127: No NY providers found, skipping
+2025-09-02 14:19:35,054 - INFO - Processing batch 128 (1000 records)
+2025-09-02 14:19:35,069 - INFO - Batch 128: No NY providers found, skipping
+2025-09-02 14:19:35,080 - INFO - Processing batch 129 (1000 records)
+2025-09-02 14:19:35,093 - INFO - Batch 129: No NY providers found, skipping
+2025-09-02 14:19:35,106 - INFO - Processing batch 130 (1000 records)
+2025-09-02 14:19:35,119 - INFO - Batch 130: No NY providers found, skipping
+2025-09-02 14:19:35,130 - INFO - Processing batch 131 (1000 records)
+2025-09-02 14:19:35,143 - INFO - Batch 131: No NY providers found, skipping
+2025-09-02 14:19:35,154 - INFO - Processing batch 132 (1000 records)
+2025-09-02 14:19:35,168 - INFO - Batch 132: No NY providers found, skipping
+2025-09-02 14:19:35,180 - INFO - Processing batch 133 (1000 records)
+2025-09-02 14:19:35,194 - INFO - Batch 133: No NY providers found, skipping
+2025-09-02 14:19:35,209 - INFO - Processing batch 134 (1000 records)
+2025-09-02 14:19:35,223 - INFO - Batch 134: No NY providers found, skipping
+2025-09-02 14:19:35,232 - INFO - Processing batch 135 (1000 records)
+2025-09-02 14:19:35,245 - INFO - Batch 135: No NY providers found, skipping
+2025-09-02 14:19:35,260 - INFO - Processing batch 136 (1000 records)
+2025-09-02 14:19:35,272 - INFO - Batch 136: No NY providers found, skipping
+2025-09-02 14:19:35,283 - INFO - Processing batch 137 (1000 records)
+2025-09-02 14:19:35,297 - INFO - Batch 137: No NY providers found, skipping
+2025-09-02 14:19:35,310 - INFO - Processing batch 138 (1000 records)
+2025-09-02 14:19:35,323 - INFO - Batch 138: No NY providers found, skipping
+2025-09-02 14:19:35,334 - INFO - Processing batch 139 (1000 records)
+2025-09-02 14:19:35,348 - INFO - Batch 139: No NY providers found, skipping
+2025-09-02 14:19:35,361 - INFO - Processing batch 140 (1000 records)
+2025-09-02 14:19:35,375 - INFO - Batch 140: No NY providers found, skipping
+2025-09-02 14:19:35,386 - INFO - Processing batch 141 (1000 records)
+2025-09-02 14:19:35,399 - INFO - Batch 141: No NY providers found, skipping
+2025-09-02 14:19:35,413 - INFO - Processing batch 142 (1000 records)
+2025-09-02 14:19:35,427 - INFO - Batch 142: No NY providers found, skipping
+2025-09-02 14:19:35,438 - INFO - Processing batch 143 (1000 records)
+2025-09-02 14:19:35,452 - INFO - Batch 143: No NY providers found, skipping
+2025-09-02 14:19:35,464 - INFO - Processing batch 144 (1000 records)
+2025-09-02 14:19:35,478 - INFO - Batch 144: No NY providers found, skipping
+2025-09-02 14:19:35,491 - INFO - Processing batch 145 (1000 records)
+2025-09-02 14:19:35,504 - INFO - Batch 145: No NY providers found, skipping
+2025-09-02 14:19:35,514 - INFO - Processing batch 146 (742 records)
+2025-09-02 14:19:35,525 - INFO - Batch 146: No NY providers found, skipping
+2025-09-02 14:19:35,536 - INFO - ETL process completed successfully!
+2025-09-02 14:19:35,536 - INFO - Total records processed: 8499
+2025-09-02 14:19:35,536 - INFO - Total errors: 0
+2025-09-02 14:19:35,537 - INFO - Total batches: 146
