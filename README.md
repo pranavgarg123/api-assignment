@@ -165,13 +165,13 @@ CSV must contain these columns:
 ### Development Server
 
 ```bash
-uvicorn app:app --reload --host 0.0.0.0 --port 8000
+uvicorn app:app --reload
 ```
 
 ### Production
 
 ```bash
-uvicorn app:app --host 0.0.0.0 --port 8000
+uvicorn app:app
 ```
 
 ## Troubleshooting
@@ -234,13 +234,124 @@ docker-compose up -d db
 
 ## API Endpoints
 
-*To be implemented in `app.py`*
+### 1. GET /providers
+Search for healthcare providers offering specific DRG procedures within a radius of a ZIP code.
 
-- `GET /providers` - List all providers
-- `GET /providers/{provider_id}` - Get provider details
-- `GET /procedures` - List all procedures
-- `GET /providers/{provider_id}/procedures` - Get provider procedures
-- `GET /ratings` - List provider ratings
+**Query Parameters:**
+- `drg` (optional): MS-DRG code (e.g., "001") or description (e.g., "heart surgery")
+- `zip` (optional): ZIP code for location-based search
+- `radius_km` (optional): Search radius in kilometers (default: 10.0)
+
+**Example:**
+```bash
+GET /providers?drg=001&zip=10001&radius_km=25
+```
+
+**Response:**
+```json
+[
+  {
+    "provider_id": "123456",
+    "provider_name": "NYC Medical Center",
+    "provider_city": "New York",
+    "provider_state": "NY",
+    "provider_zip_code": "10001",
+    "distance_km": 2.5,
+    "ms_drg_code": "001",
+    "ms_drg_description": "EXCISION OF BRAIN LESION",
+    "total_discharges": 25,
+    "average_covered_charges": 158541.64,
+    "average_total_payments": 37331.0,
+    "average_medicare_payments": 35332.96,
+    "rating": 8
+  }
+]
+```
+
+### 2. POST /ask
+AI assistant endpoint that converts natural language questions to SQL queries and returns results.
+
+**Request Body:**
+```json
+{
+  "question": "What are the cheapest hospitals for heart surgery in New York?"
+}
+```
+
+**Response:**
+```json
+{
+  "question": "What are the cheapest hospitals for heart surgery in New York?",
+  "sql_query": "SELECT p.provider_name, pp.average_total_payments, pr.ms_drg_description FROM providers p JOIN provider_procedures pp ON p.provider_id = pp.provider_id JOIN procedures pr ON pp.procedure_id = pr.id WHERE pr.ms_drg_description ILIKE '%heart%' AND p.provider_state = 'NY' ORDER BY pp.average_total_payments ASC LIMIT 10",
+  "results": [
+    {
+      "provider_name": "NYC Medical Center",
+      "average_total_payments": 25000.0,
+      "ms_drg_description": "HEART SURGERY WITH MCC"
+    }
+  ],
+  "message": "Found 5 results for your query."
+}
+```
+
+## AI Assistant Example Prompts
+
+The `/ask` endpoint can answer various types of questions about healthcare data:
+
+### 1. Cost-Related Queries
+- "What are the cheapest hospitals for heart surgery in New York?"
+- "Which providers have the lowest average total payments for DRG 001?"
+- "Show me the most expensive hospitals for brain surgery procedures"
+- "What's the average cost of hip replacement surgery across all providers?"
+
+### 2. Quality-Related Queries
+- "Which hospitals have the highest ratings in New York?"
+- "Show me the top 10 highest rated providers"
+- "What are the best hospitals for cardiac procedures based on ratings?"
+
+### 3. Provider Information
+- "How many providers are in New York City?"
+- "Which hospitals offer the most procedures?"
+- "Show me all providers in zip code 10001"
+
+### 4. Procedure Analysis
+- "What are the most common procedures performed?"
+- "Which DRG codes have the highest number of discharges?"
+- "Show me all procedures related to cardiac surgery"
+
+### 5. Statistical Queries
+- "What's the average rating across all providers?"
+- "How many total discharges are there for heart surgery procedures?"
+- "What's the total cost of all procedures performed?"
+
+## Environment Variables
+
+Add these to your `.env` file:
+
+```bash
+# Database URL
+DATABASE_URL=postgresql+asyncpg://user:password@localhost:5432/healthcare
+
+# OpenAI API Key (required for /ask endpoint)
+OPENAI_API_KEY=your_openai_api_key_here
+```
+
+## Running the API
+
+### Development
+```bash
+uvicorn app:app --reload
+```
+
+### Production
+```bash
+uvicorn app:app 
+```
+
+The API will be available at:
+- **Base URL**: http://localhost:8000
+- **Interactive Docs**: http://localhost:8000/docs
+- **OpenAPI Schema**: http://localhost:8000/openapi.json
 
 ## Contributing
 
