@@ -97,15 +97,11 @@ A FastAPI application with async SQLAlchemy and PostgreSQL for managing healthca
 Create a `.env` file in your project root:
 
 ```bash
+# OpenAI api key here
+OPENAI_API_KEY=""
 # Database URL for your FastAPI app (async)
 DATABASE_URL=postgresql+asyncpg://user:password@localhost:5432/healthcare
 
-# Or use individual parameters
-POSTGRES_USER=user
-POSTGRES_PASSWORD=password
-POSTGRES_DB=healthcare
-POSTGRES_HOST=localhost
-POSTGRES_PORT=5432
 ```
 
 **Note**: The `migrations/env.py` automatically converts async URLs to sync URLs for Alembic.
