@@ -23,7 +23,7 @@ A FastAPI application with async SQLAlchemy and PostgreSQL for managing healthca
 │   └── __init__.py          # Database models with relationships
 ├── database_config.py        # Database configuration helper
 ├── etl.py                   # ETL script for data import
-├── app.py                   # FastAPI application (to be implemented)
+├── app.py                   # FastAPI application
 ├── requirements.txt          # Python dependencies
 └── README.md                # This file
 ```
@@ -356,7 +356,3 @@ The API will be available at:
 3. Commit changes: `git commit -am 'Add feature'`
 4. Push branch: `git push origin feature-name`
 5. Submit pull request
-
-## License
-
-[Add your license information here]
